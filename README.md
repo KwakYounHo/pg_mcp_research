@@ -14,7 +14,7 @@ Therefore, it is **strongly discouraged** to use shared or sensitive databases.
 This implementation is based on the [mcp/postgres](https://hub.docker.com/r/mcp/postgres) Docker image.
 
 - [Docker Image on Docker Hub](https://hub.docker.com/r/mcp/postgres)
-- [Source Code on Github](https://github.com/modelcontextprotocol/servers/blob/2025.4.24/src/postgres/index.ts)
+- [Source Code on GitHub](https://github.com/modelcontextprotocol/servers/blob/2025.4.24/src/postgres/index.ts)
 
 ## Usage
 
@@ -32,7 +32,6 @@ To use this with an agent like `Claude desktop` or `Cursor`, configure it like s
 
 ```json
 {
-  ...,
   "mcpServers": {
     "my-db-server": {
       "command": "npx",

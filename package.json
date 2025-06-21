@@ -1,6 +1,6 @@
 {
   "name": "@k_yh/mcp-db-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for interacting with PostgreSQL databases",
   "license": "MIT",
   "type": "module",
@@ -13,6 +13,15 @@
   },
   "files": [
     "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KwakYounHo/pg_mcp_research"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "postgres"
   ],
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
