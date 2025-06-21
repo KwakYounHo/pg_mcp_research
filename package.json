@@ -1,11 +1,15 @@
 {
-  "name": "juno-mcp-db-server",
+  "name": "@k_yh/mcp-db-server",
   "version": "0.1.0",
   "description": "MCP server for interacting with PostgreSQL databases",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "juno-mcp-db-server": "dist/index.js"
+    "mcp-db-server": "dist/index.js"
+  },
+  "author": "K_YH",
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist"
