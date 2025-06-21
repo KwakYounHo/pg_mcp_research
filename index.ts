@@ -12,8 +12,8 @@ import pg from "pg";
 
 const server = new Server(
   {
-    name: "example-servers/postgres",
-    version: "0.1.0",
+    name: "db-server/postgres",
+    version: "0.1.2",
   },
   {
     capabilities: {
